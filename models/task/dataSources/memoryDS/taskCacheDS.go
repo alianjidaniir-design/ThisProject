@@ -3,7 +3,7 @@ package memoryDS
 import (
 	"sync"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/taskSchema"
+	"ThisProject/apiSchema/taskSchema"
 )
 
 type TaskCacheDS struct {

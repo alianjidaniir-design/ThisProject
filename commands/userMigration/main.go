@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	mysqlDataSource "github.com/alianjidaniir-design/SamplePRJ/models/task/dataSources/mysqlDS"
+	mysqlDataSource "ThisProject/models/task/dataSources/mysqlDS"
 )
 
 func main() {

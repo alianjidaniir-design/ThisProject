@@ -3,8 +3,8 @@ package user
 import (
 	"sync"
 
-	"github.com/alianjidaniir-design/SamplePRJ/models/repositories"
-	userDataModel "github.com/alianjidaniir-design/SamplePRJ/models/user/dataModel"
+	"ThisProject/models/repositories"
+	userDataModel "ThisProject/models/user/dataModel"
 )
 
 type Repository struct {

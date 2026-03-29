@@ -3,9 +3,9 @@ package userSchema
 import (
 	"strings"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants/status"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/customErr"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/statics/constants/status"
+	"ThisProject/statics/customErr"
 )
 
 func (req *CreateRequest) Validate(validateExtraData commonSchema.ValidateExtraData) (string, int, error) {

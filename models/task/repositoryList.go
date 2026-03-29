@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/taskSchema"
-	taskDataModel "github.com/alianjidaniir-design/SamplePRJ/models/task/dataModel"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants/status"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/apiSchema/taskSchema"
+	taskDataModel "ThisProject/models/task/dataModel"
+	"ThisProject/statics/constants/status"
 )
 
 func (repo *Repository) List(ctx context.Context, req commonSchema.BaseRequest[taskSchema.ListRequest]) (res taskSchema.ListResponse, errStr string, code int, err error) {

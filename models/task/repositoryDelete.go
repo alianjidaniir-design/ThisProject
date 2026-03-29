@@ -3,10 +3,10 @@ package task
 import (
 	"context"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/taskSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants/status"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/customErr"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/apiSchema/taskSchema"
+	"ThisProject/statics/constants/status"
+	"ThisProject/statics/customErr"
 )
 
 func (repo *Repository) Delete(ctx context.Context, req commonSchema.BaseRequest[taskSchema.DeleteRequest]) (res taskSchema.DeleteResponse, errStr string, code int, err error) {

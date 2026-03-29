@@ -3,8 +3,8 @@ package repositories
 import (
 	"context"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/userSchema"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/apiSchema/userSchema"
 )
 
 type UserRepository interface {

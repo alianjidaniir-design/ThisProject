@@ -1,11 +1,11 @@
 package user
 
 import (
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/userSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/controllers/mainController"
-	"github.com/alianjidaniir-design/SamplePRJ/models/repositories"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants/controllerBaseErrCode"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/apiSchema/userSchema"
+	"ThisProject/controllers/mainController"
+	"ThisProject/models/repositories"
+	"ThisProject/statics/constants/controllerBaseErrCode"
 	"github.com/gofiber/fiber/v2"
 )
 

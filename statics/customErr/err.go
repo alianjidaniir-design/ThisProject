@@ -3,7 +3,7 @@ package customErr
 import (
 	"errors"
 
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants"
+	"ThisProject/statics/constants"
 )
 
 var (

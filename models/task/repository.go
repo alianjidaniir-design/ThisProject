@@ -4,10 +4,10 @@ import (
 	"log"
 	"sync"
 
-	"github.com/alianjidaniir-design/SamplePRJ/models/repositories"
-	taskDataSources "github.com/alianjidaniir-design/SamplePRJ/models/task/dataSources"
-	memoryDataSource "github.com/alianjidaniir-design/SamplePRJ/models/task/dataSources/memoryDS"
-	mysqlDataSource "github.com/alianjidaniir-design/SamplePRJ/models/task/dataSources/mysqlDS"
+	"ThisProject/models/repositories"
+	taskDataSources "ThisProject/models/task/dataSources"
+	memoryDataSource "ThisProject/models/task/dataSources/memoryDS"
+	mysqlDataSource "ThisProject/models/task/dataSources/mysqlDS"
 )
 
 type Repository struct {

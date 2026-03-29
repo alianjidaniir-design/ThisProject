@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/taskSchema"
-	taskDataModel "github.com/alianjidaniir-design/SamplePRJ/models/task/dataModel"
+	"ThisProject/apiSchema/taskSchema"
+	taskDataModel "ThisProject/models/task/dataModel"
 )
 
 func tehranLocation() *time.Location {

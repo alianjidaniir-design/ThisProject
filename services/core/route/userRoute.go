@@ -1,7 +1,7 @@
 package route
 
 import (
-	. "github.com/alianjidaniir-design/SamplePRJ/controllers/user"
+	. "ThisProject/controllers/user"
 	"github.com/gofiber/fiber/v2"
 )
 

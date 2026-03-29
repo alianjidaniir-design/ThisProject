@@ -3,8 +3,8 @@ package repositories
 import (
 	"context"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/taskSchema"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/apiSchema/taskSchema"
 )
 
 type TaskRepository interface {

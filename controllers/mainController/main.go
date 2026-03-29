@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants/status"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/statics/constants/status"
 	"github.com/gofiber/fiber/v2"
 )
 

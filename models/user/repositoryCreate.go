@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/commonSchema"
-	"github.com/alianjidaniir-design/SamplePRJ/apiSchema/userSchema"
-	userDataModel "github.com/alianjidaniir-design/SamplePRJ/models/user/dataModel"
-	"github.com/alianjidaniir-design/SamplePRJ/statics/constants/status"
+	"ThisProject/apiSchema/commonSchema"
+	"ThisProject/apiSchema/userSchema"
+	userDataModel "ThisProject/models/user/dataModel"
+	"ThisProject/statics/constants/status"
 )
 
 func (repo *Repository) nextID() int64 {

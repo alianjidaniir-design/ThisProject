@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	_ "github.com/alianjidaniir-design/SamplePRJ/models/task"
-	"github.com/alianjidaniir-design/SamplePRJ/services/core/route"
+	_ "ThisProject/models/task"
+	"ThisProject/services/core/route"
 	"github.com/gofiber/fiber/v2"
 )
 
